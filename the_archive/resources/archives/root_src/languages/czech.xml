@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptor designated_path="/">
+<title>Kategorie</title>
+<labels>Matika;Fyzika;Chemie;Biologie;Počítačová věda;Jazyky</labels>
+<icons>images/math.svg;images/physics.svg;images/chemistry.svg;images/biology.svg;images/computer_science.svg;images/lang.svg</icons>
+<constructor-ids>math_it;physics_it;chemistry_it;biology_it;computer_science_it;language_it</constructor-ids>
+<constructor-paths>Math;Physics;Chemistry;Biology;ComputerScience;Languages</constructor-paths>
+</descriptor>
+

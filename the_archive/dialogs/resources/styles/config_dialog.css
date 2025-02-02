@@ -1,0 +1,42 @@
+
+body
+{
+  background-color:#2f2f2f;
+}
+
+#opt_icon
+{
+  width:20vw;
+  height:20vh;
+  background-image:url("images/lang.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#text_prompt
+{
+  margin-top: 2%;
+  color:white;
+  float:left;
+  margin-bottom: 2vh;
+}
+
+#btn_done
+{
+  position:absolute;
+  bottom:0vw;
+  right:0vw;
+}
+
+#select_box
+{
+  margin-left: 2vw;
+}
+
+#controls_cont
+{
+  width:30vw;
+  height:20vh;
+  margin:auto;
+  margin-top: 5%;
+}

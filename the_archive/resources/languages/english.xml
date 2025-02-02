@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main_window>
+<title>The Archive</title>
+<searchbox>Search</searchbox>
+<sidebar>
+<labels>Editor;Archives;Settings;Github</labels>
+<nav>editor;archives;settings;github</nav>
+</sidebar>
+</main_window>
+<units>Metric;Imperial;US customary</units>

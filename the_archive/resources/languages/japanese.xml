@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main_window>
+<title>アーカイブ</title>
+<searchbox>サーチ</searchbox>
+<sidebar>
+<labels>エヂイタ;アーカイブ;セッティング;Github </labels>
+<nav>editor;archives;settings;github</nav>
+</sidebar>
+</main_window>
+<units>Metric;Imperial;US Customary</units>

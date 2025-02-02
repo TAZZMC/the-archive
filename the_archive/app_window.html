@@ -1,0 +1,24 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="resources/scripts/app_window.js"></script>
+  <script src="resources/scripts/dir_handler.js"></script>
+  <script src="resources/scripts/xml_handler.js"></script>
+  <link rel="stylesheet" href="resources/styles/app_window.css">
+  <meta charset="utf-8">
+  <title>The Archive</title>
+</head>
+<body onload="init();">
+  <div class="disable-select" id="control_box">
+    <div class="disable-select" onclick="if(window.location.href.split('#')[1]==='sidebar'){window.location.href='#';} else{window.location.href='#sidebar';}" id="menu_btn"></div>
+    <input class="disable-select" id="search_box" placeholder="Search" type="search"></input>
+    <div class="disable-select" id="search_btn" id="btn1"></div>
+  </div>
+  <div class="disable-select" id="sidebar">
+
+  </div>
+  <div id="iframe_container">
+    <iframe id="iframe_navigation" src=""></iframe>
+  </div>
+</body>
+</html>

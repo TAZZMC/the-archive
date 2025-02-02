@@ -1,0 +1,46 @@
+*
+{
+  margin:0vw;
+  padding: 0vw;
+}
+
+body
+{
+
+}
+
+#action_cont
+{
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+    margin-top:45vh;
+
+}
+
+.action_btn:hover
+{
+  filter: brightness(120%);
+  transition: filter 0.5s;
+}
+
+.action_btn
+{
+
+  float:center;
+  background-color: #540099;
+  width:6vw;
+  height:4vh;
+  font-size:2vh;
+  border-style: none;
+  color:white;
+  transition: filter 0.5s;
+}
+
+#editor_preview
+{
+  border-style:none;
+  width:100%;
+  height:100%;
+  display:none;
+}

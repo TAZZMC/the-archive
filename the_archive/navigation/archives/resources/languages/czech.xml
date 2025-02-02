@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+<nav_item id="back_it" icon="return.svg" script="parent.current_dir=parent.path_manipulator(parent.current_dir,'get_higher'); loadArchive();">Zpět</nav_item>
+<nav_item id="previous_it" icon="previous.svg" script="">Předchozí</nav_item>
+<nav_item id="bookmark_it" icon="bookmark.svg" script="">Záložky</nav_item>
+</navigation>

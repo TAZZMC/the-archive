@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config_dialog>
+<title>First configuration</title>
+<prompt_box>
+<prompt_text type="language">Select your language:</prompt_text>
+<prompt_text type="units">Select unit system:</prompt_text>
+<cont-btn cont="true">Next</cont-btn>
+<cont-btn cont="false">Done</cont-btn>
+</prompt_box>
+</config_dialog>

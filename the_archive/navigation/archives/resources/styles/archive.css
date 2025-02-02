@@ -1,0 +1,98 @@
+
+*
+{
+  margin: 0vw;
+  padding: 0vw;
+}
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+::-webkit-scrollbar {
+  width: 0.25vw;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(150,0,150,0.8);
+}
+
+#title_no_archives
+{
+  position:absolute;
+  z-index: 999;
+  display:none;
+}
+
+
+#item_container
+{
+  margin:auto;
+  height:95%;
+  width:50%;
+}
+
+#arch_title
+{
+  color:white;
+  font-size: 3vh;
+  text-align:center;
+}
+
+.item:hover
+{
+  filter: blur(1.1px) brightness(120%);
+  transition: filter 0.5s;
+}
+.item:active
+{
+  filter: brightness(140%);
+}
+.item
+{
+  float:left;
+  width:11.6vw;
+  height:11.6vw;
+  margin:0.2vw;
+  background-color: rgba(100,100,100,1);
+  display: flex;
+  align-items: center;    /* aligns vertically */
+  justify-content: center
+  transition: filter 2s;
+}
+
+.item_txt
+{
+  overflow: hidden;
+  font-size: 2.5vh;
+  font-weight: 900;
+  color:white;
+  width:10vw;
+  text-align: center;
+  height: fit-content;
+
+  margin:auto;
+  margin-bottom:1vh;
+}
+
+.record_it
+{
+  background-image:url("../images/file.svg");
+  background-size: 9vw 9vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.folder_it
+{
+  background-image:url("../images/folder.svg");
+  background-size: 9vw 9vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}

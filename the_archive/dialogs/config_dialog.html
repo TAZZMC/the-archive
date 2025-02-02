@@ -1,0 +1,19 @@
+ <html>
+ <head>
+ <meta charset="utf-8">
+ <script src="resources/scripts/config_dialog.js"></script>
+ <script src="../resources/scripts/xml_handler.js"></script>
+  <link rel="stylesheet" href="resources/styles/config_dialog.css"></link>
+
+   <title>First configuration</title>
+</head>
+<body onload="init();" lang="en">
+  <div id="opt_icon"></div>
+  <div id="controls_cont">
+  <div id="text_prompt">Select your language:</div>
+    <select onchange="selected(this.selectedOptions[0]);" id="select_box">
+    </select>
+  </div>
+  <button id="btn_done" onclick="cont();">Next</button>
+</body>
+ </html>

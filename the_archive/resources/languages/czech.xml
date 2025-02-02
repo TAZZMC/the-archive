@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main_window>
+<title>Archiv</title>
+<searchbox>Vyhledat</searchbox>
+<sidebar>
+<labels>Editor;Archivy;Nastavení;Github</labels>
+<nav>editor;archives;settings;github</nav>
+</sidebar>
+</main_window>
+<units>Metrické;Imperiální;Americké zvykové</units>

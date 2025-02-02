@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language-list>
+<language lang="en" file="english.xml">English</language>
+<language lang="cz" file="czech.xml">Čeština</language>
+<language lang="jp" file="japanese.xml">日本語</language>
+</language-list>
