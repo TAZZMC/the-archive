@@ -1,0 +1,29 @@
+{
+  "name": "The Archive",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Comprehensive knowledge library",
+  "main": "main",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "etc-infoark"
+  ],
+  "author": "BluPhoenix",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^23.3.13"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "t"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
