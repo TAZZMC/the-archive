@@ -10,7 +10,7 @@
   "keywords": [
     "etc-infoark"
   ],
-  "author": "BluPhoenix",
+  "author": "BluPhoenix,AVARISS",
   "license": "GPL-3.0",
   "devDependencies": {
     "electron": "^23.3.13"
